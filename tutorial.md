@@ -26,4 +26,6 @@ Attaching to centos2, ubuntu3, centos1, docker, ubuntu1, centos3, ubuntu2, ubunt
 
 To access the Portal, click the Web Preview Icon, if you cant find it, click - <walkthrough-web-preview-icon>here</walkthrough-web-preview-icon> for a walkthrough on where to find it.  
 
-Select 'Preview on Port 8080' and you're good to go!  When accessing terminals, the default credentials are ansible/password
+Select 'Preview on Port 8080' and you're good to go!  
+
+When accessing terminals, the default credentials are ansible/password
