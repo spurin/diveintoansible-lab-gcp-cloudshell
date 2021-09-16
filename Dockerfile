@@ -2,7 +2,7 @@ FROM gcr.io/cloudshell-images/cloudshell:latest
 
 # Add your content here
 
-RUN apt-get update \
+RUN apt-get --allow-releaseinfo-change update \
     && apt-get install -y git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
