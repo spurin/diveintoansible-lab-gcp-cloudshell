@@ -1,5 +1,7 @@
 # Dive Into Ansible Lab - Cloudshell GCP - Tutorial
 
+<kbd><img src="Dive-Into-Ansible.png"></kbd>
+
 This tutorial provides you with a fully working Ansible lab, accessible in your browser from a portal 🚀
 
 In the Dive Into Ansible course, we configure SSH relationships as part of the course content.  
