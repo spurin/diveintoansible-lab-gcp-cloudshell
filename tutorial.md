@@ -9,7 +9,7 @@ In the Dive Into Ansible course, we configure SSH relationships as part of the c
 You can optionally skip this process auto configure SSH connectivity between all virtual machines by executing the following command (for convenience you can send this to the terminal using the convenient 'Copy to Cloud Shell' icon on the top right of the text box) - 
 
 ```bash
-for user in root guest; do sudo ssh-keygen -f /opt/diveintoansible-lab/config/${user}_ssh -P "" <<< y;done
+sudo ssh-keygen -f /opt/diveintoansible-lab/config/guest_ssh -P "" <<< y; sudo cp -rf /opt/diveintoansible-lab/config/guest_ssh /opt/diveintoansible-lab/config/root_ssh; sudo cp -rf /opt/diveintoansible-lab/config/guest_ssh.pub /opt/diveintoansible-lab/config/root_ssh.pub 
 ```
 
 Launch the lab with the following commands -
