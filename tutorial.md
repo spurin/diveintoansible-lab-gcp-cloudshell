@@ -1,4 +1,4 @@
-# Dive Into Ansible Lab - Cloudshell GCP - Tutorial
+# Dive Into Ansible Lab - GCP Cloudshell - Tutorial
 
 ![DiveInto](https://raw.githubusercontent.com/spurin/diveintoansible-lab-gcp-cloudshell/main/Dive-Into-Ansible.png)
 
