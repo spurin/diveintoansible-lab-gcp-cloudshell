@@ -1,6 +1,6 @@
 # Dive Into Ansible Lab - Cloudshell GCP - Tutorial
 
-![DiveInto](Dive-Into-Ansible.png)
+![DiveInto](https://raw.githubusercontent.com/spurin/diveintoansible-lab-gcp-cloudshell/main/Dive-Into-Ansible.png)
 
 This tutorial provides you with a fully working Ansible lab, accessible in your browser from a portal 🚀
 
