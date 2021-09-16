@@ -12,7 +12,7 @@ You can optionally skip this process auto configure SSH connectivity between all
 for user in root guest; do sudo ssh-keygen -f /opt/diveintoansible-lab/config/${user}_ssh -P "" <<< y;done
 ```
 
-Launch the Dive Into Ansible Lab with the following commands -
+Launch the lab with the following commands -
 
 ```bash
 cd /opt/diveintoansible-lab; docker-compose up
