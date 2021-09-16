@@ -1,6 +1,0 @@
-FROM gcr.io/cloudshell-images/cloudshell:latest
-
-RUN (cd /opt; git clone https://github.com/spurin/diveintoansible-lab.git)
-RUN sudo curl -L https://github.com/docker/compose/releases/download/1.29.2/docker-compose-`uname -s`-`uname -m` -o /usr/local/bin/docker-compose
-COPY .env /opt/diveintoansible-lab
-RUN perl -p -i -e 's/1000/8080/g' /opt/diveintoansible-lab/docker-compose.yaml
