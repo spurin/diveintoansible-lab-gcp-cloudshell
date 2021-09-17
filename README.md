@@ -4,7 +4,7 @@
 
 A customised Google Cloudshell enviroment with the Dive Into Ansible Lab preconfigured 🚀
 
-Click the link, authenticate with your Google credentials and then follow the short tutorial on the right hand side!
+Click the link, authenticate with your Google credentials, you don't need to 'Trust' the image (i.e. share your credentials) for all of the functionality to work.  Once launced, follow the short tutorial on the right hand side!
 
 This configuration uses port 8080 for the Portal (rather than 1000), to tally up with the Cloudshell web preview port.
 
