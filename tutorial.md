@@ -7,7 +7,7 @@ This tutorial provides you with a fully working Ansible lab, accessible in your 
 Firstly, we'll clone the Dive Into Ansible lab.  This is using a customised branch off the diveintoansible-lab repository that is A) preconfigured for use with Google cloudshell and B) has docker-compose preloaded in the bin directory (the default docker-compose on gcp cloudshell is too old).  For convenience you can send this to the terminal using the convenient 'Copy to Cloud Shell' icon on the top right of the text box
 
 ```bash
-sudo git clone -b cloudshell-gcp https://github.com/spurin/diveintoansible-lab.git /opt/diveintoansible-lab
+git clone -b cloudshell-gcp https://github.com/spurin/diveintoansible-lab.git ${HOME}/diveintoansible-lab
 ```
 
 In the Dive Into Ansible course, we configure SSH relationships as part of the course content.  
@@ -15,13 +15,13 @@ In the Dive Into Ansible course, we configure SSH relationships as part of the c
 You can optionally skip this process and auto configure SSH connectivity between all virtual machines by executing the following command - 
 
 ```bash
-sudo ssh-keygen -f /opt/diveintoansible-lab/config/guest_ssh -P "" <<< y; sudo cp -rf /opt/diveintoansible-lab/config/guest_ssh /opt/diveintoansible-lab/config/root_ssh; sudo cp -rf /opt/diveintoansible-lab/config/guest_ssh.pub /opt/diveintoansible-lab/config/root_ssh.pub 
+ssh-keygen -f ${HOME}/diveintoansible-lab/config/guest_ssh -P "" <<< y; cp -rf ${HOME}/diveintoansible-lab/config/guest_ssh ${HOME}/diveintoansible-lab/config/root_ssh; cp -rf ${HOME}/diveintoansible-lab/config/guest_ssh.pub ${HOME}/diveintoansible-lab/config/root_ssh.pub 
 ```
 
 Launch the lab with the following commands -
 
 ```bash
-cd /opt/diveintoansible-lab; bin/docker-compose up
+cd ${HOME}/diveintoansible-lab; bin/docker-compose up
 ```
 
 When this completes, you'll see text similar to the following -
