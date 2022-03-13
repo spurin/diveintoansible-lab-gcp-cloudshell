@@ -21,7 +21,7 @@ ssh-keygen -f ${HOME}/diveintoansible-lab/config/guest_ssh -P "" <<< y; cp -rf $
 Launch the lab with the following commands -
 
 ```bash
-cd ${HOME}/diveintoansible-lab; bin/docker-compose up
+cd ${HOME}/diveintoansible-lab; bin/docker-compose up --quiet-pull
 ```
 
 When this completes, you'll see text similar to the following -
