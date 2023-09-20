@@ -12,7 +12,7 @@ git clone -b cloudshell-gcp https://github.com/spurin/diveintoansible-lab.git ${
 
 In the Dive Into Ansible course, we configure SSH relationships as part of the course content.  
 
-You can optionally skip this process and auto configure SSH connectivity between all virtual machines by executing the following command - 
+If you are following the course and are yet to complete the lesson where we configure ssh keys between our hosts, do not run this step. However, if you have previously followed this lesson and wish to automate SSH connectivity between all virtual machines, saving you the time of re-doing this, you can do so by by executing the following command - 
 
 ```bash
 ssh-keygen -f ${HOME}/diveintoansible-lab/config/guest_ssh -P "" <<< y; cp -rf ${HOME}/diveintoansible-lab/config/guest_ssh ${HOME}/diveintoansible-lab/config/root_ssh; cp -rf ${HOME}/diveintoansible-lab/config/guest_ssh.pub ${HOME}/diveintoansible-lab/config/root_ssh.pub 
