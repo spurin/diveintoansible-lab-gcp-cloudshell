@@ -7,7 +7,8 @@ This tutorial provides you with a fully working Ansible lab, accessible in your 
 Firstly, we'll clone the Dive Into Ansible lab.  This is using a customised branch off the diveintoansible-lab repository that is A) preconfigured for use with Google cloudshell and B) has docker-compose preloaded in the bin directory (the default docker-compose on gcp cloudshell is too old).  For convenience you can send this to the terminal using the convenient 'Copy to Cloud Shell' icon on the top right of the text box
 
 ```bash
-git clone -b cloudshell-gcp https://github.com/spurin/diveintoansible-lab.git ${HOME}/diveintoansible-lab
+git clone -b cloudshell-gcp https://github.com/spurin/diveintoansible-lab.git ${HOME}/diveintoansible-lab &> /dev/null
+cd ${HOME}/diveintoansible-lab && git reset --hard &>/dev/null && git pull --no-rebase &> /dev/null
 ```
 
 Launch the lab with the following commands -
