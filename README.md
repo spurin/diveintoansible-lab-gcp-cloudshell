@@ -1,6 +1,6 @@
 # Dive Into Ansible Lab - GCP Cloudshell
 
-![DiveInto](https://raw.githubusercontent.com/spurin/diveintoansible-lab-gcp-cloudshell/main/Dive-Into-Ansible.png)
+![DiveInto](https://raw.githubusercontent.com/spurin/diveintoansible-lab-gcp-cloudshell/main/Dive-Into-Ansible.jpg)
 
 A customised Google Cloudshell enviroment with the Dive Into Ansible Lab preconfigured 🚀
 
