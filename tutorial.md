@@ -14,7 +14,7 @@ cd ${HOME}/diveintoansible-lab && git reset --hard &>/dev/null && git pull --no-
 Launch the lab with the following commands -
 
 ```bash
-cd ${HOME}/diveintoansible-lab; bin/docker-compose up --quiet-pull
+cd ${HOME}/diveintoansible-lab; docker compose up --quiet-pull
 ```
 
 When this completes, you'll see text similar to the following -
